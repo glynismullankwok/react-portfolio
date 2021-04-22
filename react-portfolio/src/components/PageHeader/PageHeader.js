@@ -1,10 +1,10 @@
-import classes from './PageHeader.module.css';
+import classes from './PageHeader.css';
 
-const PageHeader = () => {
+const PageHeader = (props) => {
     return (
         <div className={classes.Container}>
         <hr />
-        <h1>{}</h1>
+        <h1>{props.title}</h1>
         </div>
     );
 };

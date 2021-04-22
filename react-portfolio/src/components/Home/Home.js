@@ -1,4 +1,4 @@
-import classes from './Home.module.css';
+import classes from './Home.css';
 // import code from './../../img/code.svg';
 
 

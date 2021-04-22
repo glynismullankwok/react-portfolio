@@ -1,5 +1,5 @@
-// import class from './../Skills/Skills.module.css';
-import PageHeader from './../PageHeader';
+import classes from './Skills.css';
+import PageHeader from './../PageHeader/PageHeader';
 import weather from './../img/weather.png';
 import Project1 from './../img/Project1website.png';
 import Project2 from './../img/Project2website.png';

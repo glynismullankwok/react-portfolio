@@ -1,4 +1,5 @@
-import classes from './Navbar.module.css';
+import classes from './Navbar.css';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -6,16 +7,16 @@ const Navbar = () => {
         <nav>
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="/#about">About Me</a>
+                    <Link to="/about">About Me</Link>
                 </li>
                 <li>
-                    <a href="/#skills">Skills</a>
+                    <Link to="/skills">Skills</Link>
                 </li>
                 <li>
-                    <a href="/#contact">Contact</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>
