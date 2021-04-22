@@ -1,0 +1,18 @@
+.Home{
+    background-color: purple;
+    display: flex;
+    height: 630px;
+    padding-top: 80px;
+    position: relative;
+}
+.Home.Container{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    color: white;
+}
+
+
+.Home.Container hi {
+    margin: 0;
+}
