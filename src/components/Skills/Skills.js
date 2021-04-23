@@ -14,21 +14,27 @@ const Skills = () => {
         <div>
             <PageHeader title={'Skills'}/>
             <div className={classes.Container}>
+                <h3>Weather Dashboard Project</h3>
                 <img src={weather} alt="weather forecast project"  />
             </div>
             <div className={classes.Container}>
+                <h3>Project 1: Rock and Roam</h3>
                 <img src={Project1} alt="Project1"  />
             </div>
             <div className={classes.Container}>
+                <h3>Project 2: Code Closet</h3>
                 <img src={Project2} alt="Project2"  />
             </div>
             <div className={classes.Container}>
+                <h3>Code Quiz Project</h3>
                 <img src={quiz} alt="quiz project"  />
             </div>
             <div className={classes.Container}>
+                <h3>Burger Logger Project</h3>
                 <img src={Burger} alt="Burger project"  />
             </div>
             <div className={classes.Container}>
+                <h3>Notetaker Project</h3>
                 <img src={Notetaker} alt="Notetaker project"  />
             </div>
         </div>

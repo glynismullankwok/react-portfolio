@@ -1,5 +1,5 @@
 .Home{
-    background-color: purple;
+  
     display: flex;
     height: 630px;
     padding-top: 80px;
@@ -9,7 +9,7 @@
     position: absolute;
     top: 15%;
     left: 2%;
-    color: white;
+    background-color: lightblue;
 }
 
 
